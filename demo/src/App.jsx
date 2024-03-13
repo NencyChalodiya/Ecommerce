@@ -10,6 +10,7 @@ function App() {
   }
   return(
     <div>
+      <h1>Test</h1>
       <img src={imageSrc} onError={onErrorImage} alt='Broken image'></img>
     </div>
   )
